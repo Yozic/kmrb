@@ -6,7 +6,7 @@
     <title>羊宫妃那的树荫时光 🎬</title>
     <style>
         * { box-sizing: border-box; }
-        body { background-color: #1a1a1a; color: #fff; font-family: sans-serif; margin: 0; padding: 20px; text-align: center; }
+        body { display: none; background-color: #1a1a1a; color: #fff; font-family: sans-serif; margin: 0; padding: 20px; text-align: center; }
         h2 { font-size: 1.3rem; margin-bottom: 20px; color: #00a1d6; }
         .main-layout { display: block; max-width: 900px; margin: 0 auto; background: #262626; border-radius: 12px; padding: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.4); }
         .video-container { width: 100%; background: #000; border-radius: 8px; overflow: hidden; margin-bottom: 15px; }
@@ -19,6 +19,21 @@
     </style>
 </head>
 <body>
+    <script>
+    var correctPassword = "24：30"; 
+    
+    // 弹出提示框
+    var input = prompt("komorebijikan的播出时间（注意格式）：");
+    
+    if (input === correctPassword) {
+        // 密码正确，解除隐藏，开门放行
+        document.body.style.display = "block";
+    } else {
+        // 密码错误，弹出警告并刷新网页重新拦截
+        alert("Ohno……");
+        window.location.reload(); 
+    }
+</script>
 
     <h2>kmrb切片合集库 🎬</h2>
     
